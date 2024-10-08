@@ -7,3 +7,17 @@ Upon launching the program, a window with three buttons will appear, allowing th
 1. identifying the median axes of the cells; 
 2. generating kymograpms distributed at regular intervals (~1 pixel) perpendicular to the axis defined during step #1 and quantifying the speed of moving particles (in a kymogram, directionally moving structures appear as a tilted line, velocity is quantified by measuring the slope in kymogram); 
 3. compiling the results from different replicates by extracting velocity and saved them in an Excel file
+
+# Installation:
+
+Kymo_Analyser_MultiChannel was most recently tested on Matlab R2023b, although it is anticipated to function effectively with a multitude of other Matlab versions. To utilise the Kymo_Analyser_MultiChannel, it is necessary to add it to the MATLAB path. This may be done by entering the command:
+
+addpath(genpath('path_to_Kymo_Analyser_MultiChannel'));
+where path_to_Kymo_Analyser_MultiChannel is the path to the folder containing all the relevant scripts.
+
+# Usage:
+
+To use KymoAnalyser_MultiChannel_GUI with its graphical user interface, it is simply necessary to run the following command in Matlab's command window:
+KymoAnalyser_MultiChannel_GUI
+
+A user manual can be found in docs/manual.md
