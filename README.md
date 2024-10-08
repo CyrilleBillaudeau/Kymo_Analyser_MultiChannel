@@ -1,5 +1,5 @@
 # Kymo_Analyser_MultiChannel
-The KymoAnalyser_MultiChannel_GUI is designed to quantify the velocity of mobile particles through kymograph analysis. Initially, a kymogram is constructed for each pixel row spanning the cell midline. These kymograms are then aligned in a side-by-side configuration to generate a single two-dimensional image, wherein each column encompasses a kymograph of the successive pixel rows within the cell. 
+The KymoAnalyser_MultiChannel is designed to quantify the velocity of mobile particles through kymograph analysis. Initially, a kymogram is constructed for each pixel row spanning the cell midline. These kymograms are then aligned in a side-by-side configuration to generate a single two-dimensional image, wherein each column encompasses a kymograph of the successive pixel rows within the cell. 
 
 The current version has been adapted from the '20201127 CB ProCeD/Micalis/INRAE' version with the objective of facilitating a comparison of kymograms generated using two fluorescent markers (in Channels #1 and #2) and quantifying the speeds observed in each kymogram. 
 
