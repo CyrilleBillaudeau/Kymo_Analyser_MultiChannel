@@ -1,10 +1,7 @@
 # Kymo_Analyser_MultiChannel
-Kymo_Analyser_MultiChannel is a simple GUI dedicated to quantify velocities of directionally moving structures in image time series. (Matlab)
+The KymoAnalyser_MultiChannel_GUI is designed to quantify the velocity of mobile particles through kymograph analysis. Initially, a kymogram is constructed for each pixel row spanning the cell midline. These kymograms are then aligned in a side-by-side configuration to generate a single two-dimensional image, wherein each column encompasses a kymograph of the successive pixel rows within the cell. The current version has been adapted from the '20201127 CB ProCeD/Micalis/INRAE' version with the objective of facilitating a comparison of kymograms generated using two fluorescent markers (in Channels #1 and #2) and quantifying the speeds observed in each kymogram. 
 
-Kymo_Analyser_MultiChannel is adapted from 'KymoAnalyser_GUI' version '20201127 CB ProCeD/Micalis/INRAE' (see below) to take into account acquisition with 2 channels.
-The goal is to compare kymographs generated using two fluorescent markers (in Channel #1 and #2), quantify speed on each kymographs.
-
-KymoAnalyser_GUI is a simple GUI dedicated to quantify velocities of directionally moving structures in image time series. The analysis workflow is divided into three steps:
-1 - It generates kymograms distributed at regular intervals (~1 pixel) perpendicular to a manually defined axis.
-2 - The kymograms obtained are aligned side-by-side to generate a single 2D image (the vertical axis corresponds to time and the horizontal axis represents spatial displacement). Since directionally moving structures appear as a tilted line in a kymogram, velocity is quantified by measuring the slope in kymogram.
-3 - Extracting velocities are then combined together in an excel file allowing various statistical analysis (not performed here).
+Upon launching the program, a window with three buttons will appear, allowing the user to navigate through the various stages of the analytical process. These include: 
+1- identifying the median axes of the cells; 
+2- generating kymograpms distributed at regular intervals (~1 pixel) perpendicular to the axis defined during step #1 and quantifying the speed of moving particles (in a kymogram, directionally moving structures appear as a tilted line, velocity is quantified by measuring the slope in kymogram); 
+3- compiling the results from different replicates by extracting velocity and saved them in an Excel file
