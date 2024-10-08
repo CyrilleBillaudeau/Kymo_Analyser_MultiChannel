@@ -19,7 +19,7 @@ where path_to_Kymo_Analyser_MultiChannel is the path to the folder containing al
 
 # Usage
 
-To use KymoAnalyser_MultiChannel_GUI with its graphical user interface, it is simply necessary to run the following command in Matlab's command window:
+To use KymoAnalyser_MultiChannel with its graphical user interface, it is simply necessary to run the following command in Matlab's command window:
 > KymoAnalyser_MultiChannel_GUI
 
 A user manual can be found in [docs/manual.md](docs/manual.md)        
