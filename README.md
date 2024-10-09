@@ -15,7 +15,7 @@ Kymo_Analyser_MultiChannel was most recently tested on Matlab R2023b, although i
 
 > addpath(genpath('path_to_Kymo_Analyser_MultiChannel'));
 
-where path_to_Kymo_Analyser_MultiChannel is the path to the folder containing all the relevant scripts.
+where path_to_Kymo_Analyser_MultiChannel is the path to the folder containing all the relevant [scripts](src/main/Kymo_Analyser_MultiChannel).
 
 # Usage
 
